@@ -1,0 +1,64 @@
+.mapcontainer{
+    margin-bottom: 350px;
+}
+/* 
+.Toolforrent{
+    background-color: rgba(0, 0, 0, 0.836);
+    border-color: blue;
+    border-width: 15px;
+    border-radius:5%;
+    font-size: 15px;
+    font-style: bold;
+    margin-bottom:20px;
+    width: 800px;
+    margin-top:30px;
+margin: auto;
+}
+
+.toolcontainer{
+    text-align: center;
+}
+
+
+.rentaltool{
+    background-color: rgb(0, 0, 0);
+    border-color: blue;
+    border-width: 15px;
+    border-radius:5%;
+    font-size: 15px;
+    font-style: bold;
+    margin-bottom:20px;
+    width: 800px;
+     color:white;
+margin: auto;
+}
+
+.rentbutton{
+    background-color: blue;
+    color: white;
+} */
+
+.toolcontainer{
+    display: flex;
+    width: 98vw;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.descrips2{
+    text-align: left;
+    background-color: rgb(253, 240, 221);
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    overflow: auto;
+}
+.listings2{
+    height: 450px;
+    margin: 30px;
+    width: 250px;
+    position: relative;
+}

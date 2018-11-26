@@ -1,0 +1,15 @@
+.listings3{
+    height: 600px;
+    margin: 30px;
+    width: 250px;
+    position: relative;
+}
+
+.descrips3{
+    text-align: left;
+    background-color: rgb(255, 241, 162);
+    width: 100%;
+    margin: auto;
+    height: 400px;
+    overflow: auto;
+}

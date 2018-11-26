@@ -1,0 +1,72 @@
+
+
+h1{
+    color:rgb(224, 55, 55);
+    text-shadow: 2px 2px rgb(20, 19, 17);
+    /* margin-top: 40px; */
+    font-family: 'Black Ops One', cursive;
+    font-size: 50px;
+
+    -webkit-animation: scale-in-center 0.5s ease-out forwards;
+    animation: scale-in-center 0.5s ease-out forwards;
+
+      
+  }
+
+  h2{
+    color: black;
+    /* text-shadow: 2px 2px grey; */
+    /* margin-top: 40px; */
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+
+    /* -webkit-animation: scale-in-center 0.5s ease-out forwards; */
+    /* animation: scale-in-center 0.5s ease-out forwards; */
+
+      
+  }
+
+  h3{
+    color: black;
+    /* text-shadow: 2px 2px grey; */
+    /* margin-top: 40px; */
+    font-family: 'Black Ops One', cursive;
+    font-size: 25px;
+
+    -webkit-animation: scale-in-center 0.5s ease-out forwards;
+    animation: scale-in-center 0.5s ease-out forwards;
+
+      
+  }
+  .headerimg{
+  /* background-image: url("garage.jpg"); */
+  height: 800px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }

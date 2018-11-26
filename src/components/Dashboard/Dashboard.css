@@ -1,0 +1,59 @@
+.header{
+      background-image: url("garage.jpg");
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+      height: 800px;
+      position: absolute;
+      top:0;
+      width: 100vw;
+      z-index: -1;
+}
+
+h1{
+    color:white;
+    text-shadow: 2px 2px rgb(20, 19, 17);
+    margin-top: 40px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 80px;
+    /* background-image: url("garage.jpg"); */
+    text-align: center;
+ 
+  }
+
+ .dashtext{
+   color: white;
+   font-size: 20px;
+   margin-top:10vh;
+ }
+
+ 
+ .loginlink{
+  /* border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible; */
+    background-color:transparent;
+    
+
+    border-radius: 10%;
+    border-width: 5px;
+    border-color: white;
+    font-size:30px;
+    color: white;
+    cursor: pointer;
+    transition:0.2s;
+    /* width:100%; */
+ }
+  
+ .loginlink:hover {
+  background-color: rgb(225, 229, 247);  
+  color: red;
+  transform:scale(1.2);
+}
+
+#hiw{
+  color:white;
+  font-size: 30px;
+}

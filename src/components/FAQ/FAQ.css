@@ -1,0 +1,26 @@
+/* .App {
+    font-family: sans-serif;
+    text-align: center;
+  } */
+  
+  /* .accordeon {
+    all: initial;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: left;
+  } */
+  
+  /* .accordeon h2 {
+    color: red;
+    font-size: 24px;
+    font-weight: 600;
+    border-top: 4px solid blue;
+  }
+   */
+  .accordeon h2.accordeon__uncollapsed {
+    border-top: 4px solid white;
+  }
+  
+  .accordeon__uncollapsed:hover {
+    cursor: pointer;
+  }
+  

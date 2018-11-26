@@ -1,0 +1,1 @@
+//takes tool_id, user_id, duration, and date to add a new rental_id

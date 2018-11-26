@@ -1,0 +1,16 @@
+.safety{
+    /* background-color: rgb(77, 127, 170); */
+    font-size:15px;
+    width: 750px;
+    margin: auto;
+    margin-top:50px;
+    flex: center;
+    text-align: justify
+}
+
+.safetyimg{
+    width: 106vh;
+    height: 70vh;
+    margin-bottom: 50px;
+    margin: auto;
+}
