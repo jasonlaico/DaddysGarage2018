@@ -3,6 +3,7 @@ const express = require("express"),
   app = express(),
   { SESSION_SECRET: secret, CONNECTION_STRING, PORT, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY } = process.env,
   port = PORT || 3001,
+  { sendEmail } = require("./controllers/emailCtrl"),
   session = require("express-session"),
   massive = require("massive"),
   { json } = require("body-parser"),
@@ -44,7 +45,9 @@ app.use('/s3', require('react-s3-uploader/s3router')({
 }));
 
  
- 
+ //email
+ app.post("/api/contact", sendEmail);
+
  
 
 

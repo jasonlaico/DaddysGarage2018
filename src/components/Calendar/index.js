@@ -151,7 +151,7 @@ class Calendar extends Component {
     const isToday = isSameDay(_date, today);
     const isCurrent = current && isSameDay(_date, current);
 console.log(current)
-console.log(_date)
+console.log(date)
 
     const inMonth =
       month && year && isSameMonth(_date, new Date([year, month, 1].join("-")));

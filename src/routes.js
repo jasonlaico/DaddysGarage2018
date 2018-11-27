@@ -15,6 +15,7 @@ import Safety from './components/Safety/Safety';
 import ToolDetail from './components/ToolDetail/ToolDetail';
 import ToolsForRent from './components/ToolsForRent/ToolsForRent';
 import RentTime from './components/ToolDetail/RentTime';
+import Contact from './components/Contact/Contact';
 
 import Account from './components/Account/Account';
 
@@ -32,6 +33,7 @@ export default (
     <Route path="/ToolsForRent" component={ToolsForRent} /> 
     <Route path="/ToolDetail/RentTime/:tool_id" component={RentTime} /> 
     <Route path="/Account" component={Account} />          
+    <Route path="/Contact" component={Contact} />          
 
     <Route path="/ToolDetail/:tool_id" component={ToolDetail} />          
     <Route path="/ListingPortal/:user_id" component={ListingPortal} /> 

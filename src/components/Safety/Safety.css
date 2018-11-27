@@ -14,3 +14,22 @@
     margin-bottom: 50px;
     margin: auto;
 }
+
+@media screen and (max-width: 380px) {
+    
+.safetyimg{
+    width: 50vh;
+    height: 30vh;
+    margin-bottom: 50px;
+    margin: auto;
+}
+.safety{
+    /* background-color: rgb(77, 127, 170); */
+    font-size:15px;
+    width: 360px;
+    margin: auto;
+    margin-top:50px;
+    flex: center;
+    text-align: justify
+}
+  }

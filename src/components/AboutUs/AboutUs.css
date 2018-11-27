@@ -33,3 +33,48 @@
     width: 100vw;
     z-index: -1;
 }
+
+@media screen and (max-width: 750px) {
+    .aboutauthor{         
+        width: 500px;
+        
+    }
+    .aboutus{         
+        width: 500px;
+    }
+    
+#About{
+     
+    top:130px;
+  
+}
+  }
+
+  @media screen and (max-width: 520px) {
+    .aboutauthor{         
+        width: 400px;
+        
+    }
+    .aboutus{         
+        width: 400px;
+    }
+    
+#About{
+     
+    top:130px;
+  
+}
+  }
+  @media screen and (max-width: 380px) {
+    .aboutauthor{         
+        width: 350px;
+    }
+    .aboutus{         
+        width: 350px;
+    }
+    #About{
+     
+        top:200px;
+      
+    }
+  }
